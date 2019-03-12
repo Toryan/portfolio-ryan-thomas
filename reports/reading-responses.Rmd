@@ -19,7 +19,7 @@ of the proximate cause.
 
 **Prompt:** Describe the evidence the author presents to support those ideas.
 
-**Response:** None of the 13 charts that Thiokol used contained both temperature and (some measure of) O-ring damage together. Only the rockets that had O-ring damage were considered; the majority of rockets had no damage, and including them would have shown more clearly the relationship between low temperature and O-ring damage. In terms of credibility the charts lacked proper documentation and have irrelevent data mixed in (e.g. Nozze Blow-By).
+**Response:** None of the 13 charts that Thiokol used contained both temperature and (some measure of) O-ring damage together. Only the rockets that had O-ring damage were considered; the majority of rockets had no damage, and including them would have shown more clearly the relationship between low temperature and O-ring damage. In terms of credibility the charts lacked proper documentation and have irrelevent data mixed in (e.g. Nozze Blow-By). Several different names for the same rockets
 
 
 **Prompt:** What data were used in making the decision to launch? What data 
@@ -43,3 +43,5 @@ in 24 previous flight." Describe the structure of this data set:
 **Prompt:** Summarize the main thesis of the paper.  
 
 **Response:** The Challenger launch could have been prevented had the engineers who presented the argument to do so properly shown the link between cold temperature and O-ring damage with effective data analysis and displays.
+
+**Visual Rhetoric:** Damage should be displayed with a number, not cross hatching to be easy to see. Data should be ordered by size, not date or alphebetically.
