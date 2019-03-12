@@ -7,14 +7,25 @@ week 2
 
 Tufte, Edward (1997) The decision to launch the space shuttle Challenger. In: *Visual and statistical thinking: Displays of evidence for making decisions.* Cheshire, CT: Graphics Press, 16--31.
 
-**Prompt:** Identify one or two of the author's theses. Briefly restate these ideas in your own words.
+**Prompt:** Tufte says, "Regardless of the indirect cultural causes of the accident, there was a clear proximate cause." Summarize Tufte's explanation of the proximate cause.
 
-**Response:**
+**Response:** The link between cold tempertature and O-ring damage was not properly shown in the Thiokol presentation to NASA.The engineers' arguments to halt the launch were not convincing.
 
 **Prompt:** Describe the evidence the author presents to support those ideas.
 
-**Response:**
+**Response:** None of the 13 charts that Thiokol used contained both temperature and (some measure of) O-ring damage together. Only the rockets that had O-ring damage were considered; the majority of rockets had no damage, and including them would have shown more clearly the relationship between low temperature and O-ring damage. In terms of credibility the charts lacked proper documentation and have irrelevent data mixed in (e.g. Nozze Blow-By).
 
-**Prompt:** Explain how the author’s argument might be used to support a decision you would make in designing a display.
+**Prompt:** What data were used in making the decision to launch? What data were not used but should have been used (according to Tufte) in making the launch decision?
 
-**Response:**
+**Response:** The erosion, Blow-By history, and temperture of O-rings for 6 rockets, 4 of which were only horizontal tests for development rockets. All rockets had O-ring damage. They had 17 launches (with no damage) which should have been included according to Tufte.
+
+**Prompt:** On page 23, Tufte presents a graph that provides visual evidence that the "launch was completely outside the engineering database accumulated in 24 previous flight." Describe the structure of this data set:
+
+-   Number of observations
+-   Data structure: classify each variable as quantitative (continuous or discrete) and categorical (nominal or ordinal and number of levels).
+
+**Response:** N = 24 observations (the Challenger launch would be 25). However one obsevation lacks a damage index, as the O-ring was lost at sea. Temperature is quantitative continuous. Damage index is quantitative discrete.
+
+**Prompt:** Summarize the main thesis of the paper.
+
+**Response:** The Challenger launch could have been prevented had the engineers who presented the argument to do so properly shown the link between cold temperature and O-ring damage with effective data analysis and displays.
