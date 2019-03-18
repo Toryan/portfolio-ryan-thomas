@@ -1,0 +1,40 @@
+---
+title: "Test report"
+output: github_document
+---
+
+Author Name  
+`r format(Sys.time(), "%Y-%m-%d")`
+
+```{r echo = FALSE}
+library("knitr")  
+opts_knit$set(root.dir = "../")  
+opts_chunk$set(echo = FALSE)  
+```
+
+## Introduction   
+This display illustrates the distribution of speeds attained by skiers in three downhill events in the 2012 Olympic Winter Games disaggregated by sex. 
+
+## Requirements 
+
+This display meets the data requirements for D1 distributions
+
+- 250 observations 
+- One quantitative variable (speed) 
+- Two categorical variables: sex (2 levels) and event (3 levels)  
+
+This display also meets the following document requirements 
+
+- sports data limit (this display is one of two) 
+
+```{r}
+library("tidyverse")
+# in a code chunk in your Rmd file 
+data(starwars, package = "dplyr")
+
+# examine it
+glimpse(starwars)
+
+
+```
+
