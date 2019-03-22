@@ -38,4 +38,16 @@ m\\ddot{x} + c\\dot{x} + kx = F
 m\ddot{x} + c\dot{x} + kx = F
 ")
 
-Visualization is a great place to start with R programming, because the payoff is so clear: you get to make elegant and informative plots that help you understand data \[@Wickham+Grolemund:2017\].
+Citations
+---------
+
+Visualization is a great place to start with R programming, because the payoff is so clear: you get to make elegant and informative plots that help you understand data (Wickham and Grolemund, [2017](#ref-Wickham+Grolemund:2017)).
+
+If you are trying to show a a correlation or causaul relationship between two variables you should have them on the same display (Tufte, [1997](#ref-Tufte:1997)).
+
+References
+----------
+
+Tufte E (1997) The decision to launch the space shuttle Challenger. *Visual and statistical thinking: Displays of evidence for making decisions*. Graphics Press, Cheshire, Ct, 16–31 <https://www.edwardtufte.com/tufte/books_textb>
+
+Wickham H and Grolemund G (2017) *R for Data Science.* O’Reilly Media, Inc., Sebastopol, CA <https://r4ds.had.co.nz/>

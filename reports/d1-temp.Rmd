@@ -3,7 +3,9 @@ title: "d1-temp"
 output: 
   github_document: 
     pandoc_args: "--webtex"
-  bibliography: "../resources/references.bib"
+bibliography: "../resources/references.bib"
+link-citations: yes
+csl: "../resources/journal-of-glaciology.csl"
 ---
 
 ```{r setup, include=FALSE}
@@ -37,6 +39,19 @@ $$
 m\ddot{x} + c\dot{x} + kx = F
 $$
 
+## Citations 
+
 Visualization is a great place to start with R programming, because the payoff is 
 so clear: you get to make elegant and informative plots that help you understand 
 data [@Wickham+Grolemund:2017]. 
+
+
+If you are trying to show a a correlation or causaul relationship between two variables you should have them on the same display [@Tufte:1997].
+
+## References
+<div id="refs"></div>
+
+
+
+
+
