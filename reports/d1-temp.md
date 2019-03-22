@@ -28,3 +28,14 @@ You can also embed plots, for example:
 ![](d1-temp_files/figure-markdown_github/pressure-1.png)
 
 Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
+
+try writing an equation
+-----------------------
+
+![
+m\\ddot{x} + c\\dot{x} + kx = F
+](https://latex.codecogs.com/png.latex?%0Am%5Cddot%7Bx%7D%20%2B%20c%5Cdot%7Bx%7D%20%2B%20kx%20%3D%20F%0A "
+m\ddot{x} + c\dot{x} + kx = F
+")
+
+Visualization is a great place to start with R programming, because the payoff is so clear: you get to make elegant and informative plots that help you understand data \[@Wickham+Grolemund:2017\].

@@ -1,6 +1,9 @@
 ---
 title: "d1-temp"
-output: github_document
+output: 
+  github_document: 
+    pandoc_args: "--webtex"
+  bibliography: "../resources/references.bib"
 ---
 
 ```{r setup, include=FALSE}
@@ -26,3 +29,14 @@ plot(pressure)
 ```
 
 Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
+
+##  try writing an equation 
+
+
+$$
+m\ddot{x} + c\dot{x} + kx = F
+$$
+
+Visualization is a great place to start with R programming, because the payoff is 
+so clear: you get to make elegant and informative plots that help you understand 
+data [@Wickham+Grolemund:2017]. 
