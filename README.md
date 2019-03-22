@@ -23,3 +23,6 @@ Discussion notes
 ----------------
 
 [Reading responses](reports/reading-responses.md) Notes from the data graphics literature on elements of design and visual rhetoric.
+
+[Presentation prompts](reports/presentation-prompts.md)
+Your prose as needed.
