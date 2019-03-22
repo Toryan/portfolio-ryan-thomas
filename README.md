@@ -1,4 +1,6 @@
 
+<img src="resources/test.jpg" width="100%" /> <small> <br> <i>Sword Art Online II</i> by Shawn is licensed under <a href="https://creativecommons.org/publicdomain/zero/1.0/legalcode">CC0 1.0</a> <br> </small>
+
 Portfolio of data displays
 ==========================
 
