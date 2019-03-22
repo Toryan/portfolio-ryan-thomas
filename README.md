@@ -23,3 +23,9 @@ Discussion notes
 ----------------
 
 [Reading responses](reports/reading-responses.md) Notes from the data graphics literature on elements of design and visual rhetoric.
+
+![
+x^2 + y^2 = r^2
+](https://latex.codecogs.com/png.latex?%0Ax%5E2%20%2B%20y%5E2%20%3D%20r%5E2%0A "
+x^2 + y^2 = r^2
+")
