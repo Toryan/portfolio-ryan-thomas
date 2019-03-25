@@ -1,80 +1,135 @@
 
-Reading responses
------------------
+## Reading responses
 
-week 2
-------
+## week 2
 
-Tufte, Edward (1997) The decision to launch the space shuttle Challenger. In: *Visual and statistical thinking: Displays of evidence for making decisions.* Cheshire, CT: Graphics Press, 16--31.
+Tufte, Edward (1997) The decision to launch the space shuttle
+Challenger. In: *Visual and statistical thinking: Displays of evidence
+for making decisions.* Cheshire, CT: Graphics Press, 16–31.
 
-**Prompt:** Tufte says, "Regardless of the indirect cultural causes of the accident, there was a clear proximate cause." Summarize Tufte's explanation of the proximate cause.
+**Prompt:** Tufte says, “Regardless of the indirect cultural causes of
+the accident, there was a clear proximate cause.” Summarize Tufte’s
+explanation of the proximate cause.
 
-**Response:** The link between cold tempertature and O-ring damage was not properly shown in the Thiokol presentation to NASA.The engineers' arguments to halt the launch were not convincing.
+**Response:** The link between cold tempertature and O-ring damage was
+not properly shown in the Thiokol presentation to NASA.The engineers’
+arguments to halt the launch were not convincing.
 
-**Prompt:** Describe the evidence the author presents to support those ideas.
+**Prompt:** Describe the evidence the author presents to support those
+ideas.
 
-**Response:** None of the 13 charts that Thiokol used contained both temperature and (some measure of) O-ring damage together. Only the rockets that had O-ring damage were considered; the majority of rockets had no damage, and including them would have shown more clearly the relationship between low temperature and O-ring damage. In terms of credibility the charts lacked proper documentation and have irrelevent data mixed in (e.g. Nozze Blow-By). Several different names for the same rockets
+**Response:** None of the 13 charts that Thiokol used contained both
+temperature and (some measure of) O-ring damage together. Only the
+rockets that had O-ring damage were considered; the majority of rockets
+had no damage, and including them would have shown more clearly the
+relationship between low temperature and O-ring damage. In terms of
+credibility the charts lacked proper documentation and have irrelevent
+data mixed in (e.g. Nozze Blow-By). Several different names for the same
+rockets
 
-**Prompt:** What data were used in making the decision to launch? What data were not used but should have been used (according to Tufte) in making the launch decision?
+**Prompt:** What data were used in making the decision to launch? What
+data were not used but should have been used (according to Tufte) in
+making the launch decision?
 
-**Response:** The erosion, Blow-By history, and temperture of O-rings for 6 rockets, 4 of which were only horizontal tests for development rockets. All rockets had O-ring damage. They had 17 launches (with no damage) which should have been included according to Tufte.
+**Response:** The erosion, Blow-By history, and temperture of O-rings
+for 6 rockets, 4 of which were only horizontal tests for development
+rockets. All rockets had O-ring damage. They had 17 launches (with no
+damage) which should have been included according to Tufte.
 
-**Prompt:** On page 23, Tufte presents a graph that provides visual evidence that the "launch was completely outside the engineering database accumulated in 24 previous flight." Describe the structure of this data set:
+**Prompt:** On page 23, Tufte presents a graph that provides visual
+evidence that the “launch was completely outside the engineering
+database accumulated in 24 previous flight.” Describe the structure of
+this data set:
 
--   Number of observations
--   Data structure: classify each variable as quantitative (continuous or discrete) and categorical (nominal or ordinal and number of levels).
+  - Number of observations
+  - Data structure: classify each variable as quantitative (continuous
+    or discrete) and categorical (nominal or ordinal and number of
+    levels).
 
-**Response:** N = 24 observations (the Challenger launch would be 25). However one obsevation lacks a damage index, as the O-ring was lost at sea. Temperature is quantitative continuous. Damage index is quantitative discrete.
+**Response:** N = 24 observations (the Challenger launch would be 25).
+However one obsevation lacks a damage index, as the O-ring was lost at
+sea. Temperature is quantitative continuous. Damage index is
+quantitative discrete.
 
 **Prompt:** Summarize the main thesis of the paper.
 
-**Response:** The Challenger launch could have been prevented had the engineers who presented the argument to do so properly shown the link between cold temperature and O-ring damage with effective data analysis and displays.
+**Response:** The Challenger launch could have been prevented had the
+engineers who presented the argument to do so properly shown the link
+between cold temperature and O-ring damage with effective data analysis
+and displays.
 
-**Visual Rhetoric:** Damage should be displayed with a number, not cross hatching to be easy to see. Data should be ordered by size, not date or alphebetically.
+**Visual Rhetoric:** Damage should be displayed with a number, not cross
+hatching to be easy to see. Data should be ordered by size, not date or
+alphebetically.
 
-week 4 reading prompts
-----------------------
+## week 4 reading prompts
 
-Wainer, Howard (2014) Fifteen displays about one thing. In: *Medical illuminations: Using evidence, visualization, and statistical thinking to improve healthcare.* UK: Oxford University Press, 32--49.
+Wainer, Howard (2014) Fifteen displays about one thing. In: *Medical
+illuminations: Using evidence, visualization, and statistical thinking
+to improve healthcare.* UK: Oxford University Press, 32–49.
 
-Definition: "Gram staining" (named after its inventor, the Danish scientist Hans Christian Gram) is a method of staining to distinguish one type of bacterium from another---it can be used as a faster substitute for culturing. Gram staining is a category with two levels: some bacteria are Gram stain negative and some are Gram stain positive. Read more about it on the
+Definition: “Gram staining” (named after its inventor, the Danish
+scientist Hans Christian Gram) is a method of staining to distinguish
+one type of bacterium from another—it can be used as a faster substitute
+for culturing. Gram staining is a category with two levels: some
+bacteria are Gram stain negative and some are Gram stain positive. Read
+more about it on the  
 [Gram stain Wiki](https://en.wikipedia.org/wiki/Gram_stain).
 
-**Prompt:** Reviewing the article carefully, come up with a list of variables. Classify each as quantitative or categorical, and if categorical, the levels.
+**Prompt:** Reviewing the article carefully, come up with a list of
+variables. Classify each as quantitative or categorical, and if
+categorical, the levels.
 
 **Response:**
 
 variable name: Antibiotics
 
--   type: Categorical, nominal
--   levels (if categorical): 3
+  - type: Categorical, nominal
+  - levels (if categorical): 3
 
 variable name: Bacteria
 
--   type: Catergorical, nominal
--   levels (if categorical): 16
+  - type: Catergorical, nominal
+  - levels (if categorical): 16
 
 variable name: gram-pole
 
--   type: Catergorical, ordinal
--   levels (if categorical): 2
+  - type: Catergorical, ordinal
+  - levels (if categorical): 2
 
 variable name: Minimum inhibitory concentration
 
--   type: Quantitative, continuous
+  - type: Quantitative, continuous
 
-**Prompt:** The article title is "Fifteen displays about one thing." After reading the entire article, what is the "one thing?" Note that the "one thing" might imply multiple goals or more than one question.
+**Prompt:** The article title is “Fifteen displays about one thing.”
+After reading the entire article, what is the “one thing?” Note that the
+“one thing” might imply multiple goals or more than one question.
 
-**Response:** If you get a certain gram-staining result, what antibacteria should you use? What is the difference in effectiveness of the different antibacterias with different bacteria?
+**Response:** If you get a certain gram-staining result, what
+antibacteria should you use? What is the difference in effectiveness of
+the different antibacterias with different bacteria?
 
-**Prompt:** In your opinion, which of the 15 displays best answers the question(s) about the "one thing?"
+**Prompt:** In your opinion, which of the 15 displays best answers the
+question(s) about the “one thing?”
 
 **Response:** Entry 13, Polygons
 
 **Prompt:** Explain why.
 
-**Response:** It most clearly shows which antibiotic should be used in which case without oversimplifying the data (as in entry 2). By seperating the gram positive and negative into two graphs it is easier to see what is going on than in the line graphs (entry 9, and 10). The log scale is explicated and it is easy to see the relative difference in effectiveness between two antibiotics for the same bacteria.
+**Response:** It most clearly shows which antibiotic should be used in
+which case without oversimplifying the data (as in entry 2). By
+seperating the gram positive and negative into two graphs it is easier
+to see what is going on than in the line graphs (entry 9, and 10). The
+log scale is explicated and it is easy to see the relative difference in
+effectiveness between two antibiotics for the same bacteria.
 
-**Prompt:** Re-read Wainer's conclusion section. What main points does he make about graph design or visual rhetoric that you could apply to your own work this term.
+**Prompt:** Re-read Wainer’s conclusion section. What main points does
+he make about graph design or visual rhetoric that you could apply to
+your own work this term.
 
-**Response:** It is often good to have a question or questions in mind when making a chart that is supposed to be evidence of something. However making a more general graph to discover a question can also be a good strategy. For a given data set and question their are likely multiple good ways of making a chart, so don't just make one design then stop.
+**Response:** It is often good to have a question or questions in mind
+when making a chart that is supposed to be evidence of something.
+However making a more general graph to discover a question can also be a
+good strategy. For a given data set and question their are likely
+multiple good ways of making a chart, so don’t just make one design then
+stop.
