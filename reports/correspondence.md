@@ -3,6 +3,9 @@
 
 **RL** The links on the README page all work except for the displays.
 
+The main image disappeared—possibly due to a version control conflict.
+Please make sure that the image is restored to the resources directory.
+
 I don’t see any data. I would have hoped that by now you would have been
 examining some data for graphing, even if a graph wasn’t ready. I can’t
 emphasize enough how important it is that you work ahead on acquiring
