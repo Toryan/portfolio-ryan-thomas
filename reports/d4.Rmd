@@ -1,0 +1,17 @@
+---
+output: github_document
+---
+
+## D4 Title
+
+prose
+
+data
+
+discussion 
+
+graph 
+
+critique 
+
+references

@@ -1,0 +1,31 @@
+---
+output: 
+  github_document: 
+    pandoc_args: "--webtex"
+bibliography: "../resources/references.bib"
+link-citations: yes
+csl: "../resources/journal-of-glaciology.csl"
+---
+
+## D1 Title
+
+#prose
+
+#data
+
+#discussion 
+
+#graph
+
+```{r, echo=FALSE}
+library("knitr")
+include_graphics("../figures/d1-tradebalance.png")
+```
+
+#critique 
+
+[@Wickham+Grolemund:2017]
+[@Tufte:1997]
+
+#references
+<div id="refs"></div>

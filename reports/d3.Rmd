@@ -1,0 +1,17 @@
+---
+output: github_document
+---
+
+## D3 Title
+
+prose
+
+data
+
+discussion 
+
+graph 
+
+critique 
+
+references
