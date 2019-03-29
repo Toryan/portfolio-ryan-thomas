@@ -17,7 +17,6 @@ ggplot(df, aes(x = Commodity , y = balance)) +
   geom_jitter(data = df_outlier, width = .075, height = .075, alpha = 0.25) +
   labs(x = NULL,
        y = "Balance of trade (Billions of dollars), cube scale",
-       title   = "Distribution of US trade of goods with foreign countries in 2018",
        caption = "Source: BEA") +
   scale_y_continuous(trans = cube_trans,
                      limits = c(-200e9,50e9), 

@@ -7,25 +7,22 @@ link-citations: yes
 csl: "../resources/journal-of-glaciology.csl"
 ---
 
-## D1 Title
+## Distribution of US trade of goods with foreign countries in 2018 
 
-#prose
+prose
 
-#data
+data
 
-#discussion 
+discussion 
 
-#graph
+graph
 
 ```{r, echo=FALSE}
 library("knitr")
 include_graphics("../figures/d1-tradebalance.png")
 ```
 
-#critique 
+critique 
 
-[@Wickham+Grolemund:2017]
-[@Tufte:1997]
+references
 
-#references
-<div id="refs"></div>

@@ -1,5 +1,5 @@
 
-<img src="figures/d1-tradebalance.png" width="100%" /> <small> <br> <i>d1, strip plot</i> <br> </small>
+<img src="resources/test.jpg" width="100%" /> <small> <br> <i>Little fog at the gate</i> by David Yu (2017) is licensed under <a href="https://creativecommons.org/publicdomain/zero/1.0/legalcode">CC0 1.0</a> <br> </small>
 
 Portfolio of data displays
 ==========================
@@ -15,8 +15,9 @@ A portfolio documents your professional growth and competence by providing tangi
 Displays and critiques
 ----------------------
 
-[Display 1](reports/d1.md) Title of your graph
-State the type of graph (strip plot or box plot) and summarize the main points of the report.
+[Display 1](reports/d1.md) Distribution of US trade of goods with foreign countries in 2018
+Box Plot
+This box plot shows the balance of trade between the US and all the countries it trades with.
 
 [Display 2](reports/d2.md) Title of your graph
 State the type of graph (multiway dot plot) and summarize the main points of the report.

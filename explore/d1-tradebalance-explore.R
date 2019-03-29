@@ -56,3 +56,4 @@ ggplot(df, aes(x = Commodity , y = balance)) +
 
 
 
+n_distinct(select(df, Commodity))

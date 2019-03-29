@@ -2,46 +2,45 @@
 presentation prompts
 ====================
 
-Complete the prompts before the start of class on the day of the presentation.
+D1 box plot
+-----------
 
--   These points guide the small-group discussions.
--   Much of this work will be part of your portfolio critiques.
-
-Once you decide the type of graph to be used for a display, you may replace the heading, for example, if you use a box plot for Display D1, you can change the heading from
-
-    ## D1 distributions 
-
-to
-
-    ## D1 box plot
-
-D1 distributions
-----------------
-
-State the number of observations:
+State the number of observations: 5,854
 
 List the variables:
 
--   quantitative var 1
--   quantitative var 2
--   etc
--   categorical var 1 and its levels
--   categorical var 1 and its levels
--   etc
+variable name: Country
 
-State the graph type:
+-   type: Categorical, nominal
+-   levels (if categorical): 234
+
+variable name: Type of good
+
+-   type: Categorical, nominal
+-   levels (if categorical): 29
+
+variable name: Trade balance
+
+-   type: quantitative, discrete
+
+State the graph type: Box plot
 
 Explain why the graph type is suited to the data structure:
 
--   point 1
--   point 2
--   etc
+-   There is only one quantitative variable and a number of categorical (or categorical levels) (it is univariate)
+-   There are far too many observations to be distinsguishable in a dot plot, so a box plot is better
+-   My goal is to compare several distributions with large data sets, and several box plots on the same graph work well for this purpose (Doumont, [2009](#ref-Doumont:2009))
 
 Explain each design choice and cite its supporting reference
 
--   choice, reference
--   choice, reference
--   etc
+-   I put the commodities on the y-axis, so they could be easily read, which was more important then easily reading labeled data points. (Doumont, [2009](#ref-Doumont:2009))
+-   I made the graph very large so it could accomidate the labeling I wanted. (Doumont, [2009](#ref-Doumont:2009))
+-   I jittered th outliers and made them translucent so that they can all be seen. (Robbins, [2013](#ref-Robbins:2013a))
+-   I only labeled a few key outliers because labeling too many of them would cause the data to become unreadible. (Robbins, [2013](#ref-Robbins:2013a))
+-   I ordered the data by its mean, going from highest to lowest.This makes it easier to pick out discrepencies between the data sets.
+-   I used a cubic scale to serve the same purpose as a log scale, but It also works for negative numbers
+
+(Doumont, [2009](#ref-Doumont:2009)) (Robbins, [2013](#ref-Robbins:2013a)) (Wainer, [2014](#ref-Wainer:2014))
 
 Comments from peers
 
@@ -308,3 +307,12 @@ Comments from peers
 -   Is the graph type suited to the data structure?
 -   Other suggestion
 -   etc
+
+References
+==========
+
+Doumont J-l (2009) Designing the graph. *Trees, maps, and theorems: Effective communication for rational minds*. Principiae, Kraainem, Belgium, 133–143 <http://www.treesmapsandtheorems.com/>
+
+Robbins N (2013) General principles for creating effective graphs. *Creating More Effective Graphs*. Chart House, Wayne, NJ, 154–225 <http://www.nbr-graphs.com/resources/recommended-books/>
+
+Wainer H (2014) Fifteen displays about one thing. *Medical illuminations: Using evidence, visualization, and statistical thinking to improve healthcare*. Oxford University Press, Oxford, UK, 32–49
