@@ -56,15 +56,10 @@ Explain each design choice and cite its supporting reference
 
 Comments from peers 
 
-- Does the data structure satisfy the portfolio display requirements?  
-- From the Doumont paper, what type of story is being told? 
-- Is the graph type suited to the data structure? 
-- Other suggestion 
-- etc
-
-
-
-
+- write deficiet / surplus directly on chart
+- use a linear scale to better focus on outliers
+- sort by absolute value of max min / or standary deviation
+- work in vertical and only flip at end
 
 
 ## D2 multiway 

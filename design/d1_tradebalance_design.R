@@ -18,10 +18,10 @@ ggplot(df, aes(x = Commodity , y = balance)) +
   labs(x = NULL,
        y = "Balance of trade (Billions of dollars), cube scale",
        caption = "Source: BEA") +
-  scale_y_continuous(trans = cube_trans,
-                     limits = c(-200e9,50e9), 
-                     breaks = c(100e9,50e9,0,-50e9, -100e9, -150e9,-200e9),
-                     label = c("$100", "$50", "$0","-$50", "-$100", "-$150","-$200")) +
+  #scale_y_continuous(trans = cube_trans,
+                    # limits = c(-200e9,50e9), 
+                   #  breaks = c(100e9,50e9,0,-50e9, -100e9, -150e9,-200e9),
+                    # label = c("$100", "$50", "$0","-$50", "-$100", "-$150","-$200")) +
   geom_text(aes(label=ifelse(balance< -25e9,as.character(Country),'')),hjust=.9,vjust= -.7, size = 3) +
   geom_text(aes(label=ifelse(balance> 15e9,as.character(Country),'')),hjust=-.1,vjust= 0, size = 3) 
 
