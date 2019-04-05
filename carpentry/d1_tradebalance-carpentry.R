@@ -24,7 +24,7 @@ df <- read_csv(file = "data-raw/d1-tradebalance-raw.csv", col_names = TRUE,skip 
                            '980 Goods Returned (exports For Canada Only)')) %>%
   mutate(Commodity = gsub('[0-9]+', '', Commodity)) %>%
   mutate(Commodity = as_factor(Commodity)) %>% 
-  mutate(Commodity = fct_reorder(Commodity, balance, .fun = mean, .desc = FALSE))
+  mutate(Commodity = fct_reorder(Commodity, balance, .fun = max, .desc = FALSE))
 
 
 saveRDS(df, "data/d1-tradebalance-data.rds")
