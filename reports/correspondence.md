@@ -1,6 +1,17 @@
 
 ## correspondence
 
+### 2019-04-05
+
+**RL** D2 presentation notes.
+
+Possibly, look at distribution of events to determine the cut points
+between bins or possibly a finer division of time into hours?
+
+Time as category is OK
+
+Does the dual multiway tell an interesting story?
+
 ### 2019-03-29
 
 **RL** D1 presentation notes.
@@ -15,7 +26,7 @@ Country could be a panel-level category to look at our trade with
 specific countries. Then the rows would be ordered by the median to see
 what industries are most notable.
 
-Linear scale might improve the stroy to tell.
+Linear scale might improve the story to tell.
 
 **RL** The links on the README page all work except for the displays.
 
