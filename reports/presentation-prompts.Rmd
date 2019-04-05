@@ -45,7 +45,7 @@ Explain each design choice and cite its supporting reference
 - I jittered th outliers and made them translucent so that they can all be seen. [@Robbins:2013a]
 - I only labeled a few key outliers because labeling too many of them would cause the data to become unreadible. [@Robbins:2013a]
 - I ordered the data by its mean, going from highest to lowest.This makes it easier to pick out discrepencies between the data sets.
-- I used a cubic scale to serve the same purpose as a log scale, but It also works for negative numbers
+- I used a cubic scale to serve the same purpose as a log scale, but It also works for negative numbers [@Wainer:2014]
 
 Comments from peers 
 
@@ -80,15 +80,17 @@ State the graph type: Multiway
 
 Explain why the graph type is suited to the data structure: 
 
-- I have a quantitative result for every combination of levels from the two categories
+- I have a quantitative result for every combination of levels from the two categories, which is what this type of graph is made for.
 - I want to make comparisons between the two categories and within their levels
 
 
 Explain each design choice and cite its supporting reference 
 
-- choice, reference 
-- choice, reference 
-- etc 
+- I put the Incident Category on the y-axis, so they could be easily read [@Doumont:2009]
+- I used a position representation (dots) rather than a length representation (bars) because I am using a logscale and a bar chart is not suited to that [@Doumont:2009]
+- I chose to have 5 columns and 5 rows because more than 5 becomes overly difficult to read [@Doumont:2009]
+- I maintained a constant scale and order of variables in each multiple so they can be easily compared [@Robbins:2013a]
+- I ordered the data by its mean, going from highest to lowest.This makes it easier to pick out discrepencies between the data sets.
 
 
 [@Doumont:2009]
