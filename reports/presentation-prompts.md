@@ -40,43 +40,48 @@ Explain each design choice and cite its supporting reference
 -   I ordered the data by its mean, going from highest to lowest.This makes it easier to pick out discrepencies between the data sets.
 -   I used a cubic scale to serve the same purpose as a log scale, but It also works for negative numbers
 
-(Doumont, [2009](#ref-Doumont:2009)) (Robbins, [2013](#ref-Robbins:2013a)) (Wainer, [2014](#ref-Wainer:2014))
-
 Comments from peers
 
--   Does the data structure satisfy the portfolio display requirements?
--   From the Doumont paper, what type of story is being told?
--   Is the graph type suited to the data structure?
--   Other suggestion
--   etc
+-   write deficiet / surplus directly on chart
+-   use a linear scale to better focus on outliers
+-   sort by absolute value of max min / or standary deviation
+-   work in vertical and only flip at end
 
 D2 multiway
 -----------
 
-State the number of observations:
+State the number of observations: 100
 
 List the variables:
 
--   quantitative var 1
--   quantitative var 2
--   etc
--   categorical var 1 and its levels
--   categorical var 1 and its levels
--   etc
+Variable name: Number of Indidents
 
-State the graph type:
+-   type: Quantitative, discrete
+
+variable name: Category of Indident
+
+-   type: Categorical, nominal
+-   levels (if categorical): 25
+
+variable name: Time of day
+
+-   type: Categorical, Ordinal
+-   levels (if categorical): 4
+
+State the graph type: Multiway
 
 Explain why the graph type is suited to the data structure:
 
--   point 1
--   point 2
--   etc
+-   I have a quantitative result for every combination of levels from the two categories
+-   I want to make comparisons between the two categories and within their levels
 
 Explain each design choice and cite its supporting reference
 
 -   choice, reference
 -   choice, reference
 -   etc
+
+(Doumont, [2009](#ref-Doumont:2009)) (Robbins, [2013](#ref-Robbins:2013a)) (Wainer, [2014](#ref-Wainer:2014))
 
 Comments from peers
 

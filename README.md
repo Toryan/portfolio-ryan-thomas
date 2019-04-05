@@ -5,7 +5,7 @@ Portfolio of data displays
 ==========================
 
 Thomas Ryan
-2019-03-29
+2019-04-05
 
 Introduction
 ------------
@@ -15,12 +15,11 @@ A portfolio documents your professional growth and competence by providing tangi
 Displays and critiques
 ----------------------
 
-[Display 1](reports/d1.md) Distribution of US trade of goods with foreign countries in 2018
-Box Plot
+[Display 1](reports/d1.md) Distribution of US trade of goods with Other countries, 2018
 This box plot shows the balance of trade between the US and all the countries it trades with.
 
-[Display 2](reports/d2.md) Title of your graph
-State the type of graph (multiway dot plot) and summarize the main points of the report.
+[Display 2](reports/d2.md) San Fracisco Police Incidents by Time of Day, 2018
+This multiway dot plot shows the number of several types of police recorded incidents seperated into four parts of the day (Morning, Afternoon, Evening, Night).
 
 [Display 3](reports/d3.md) Title of your graph
 State the type of graph (scatterplot) and summarize the main points of the report.
@@ -41,6 +40,8 @@ Discussion notes
 ----------------
 
 [Reading responses](reports/reading-responses.md)
+
+[Reflections on rhetoric](reports/video-reflection-1.md)
 
 [Presentation prompts](reports/presentation-prompts.md)
 
