@@ -1,8 +1,13 @@
 ---
-output: github_document
+output: 
+  github_document: 
+    pandoc_args: "--webtex"
+bibliography: "../resources/references.bib"
+link-citations: yes
+csl: "../resources/journal-of-glaciology.csl"
 ---
 
-## D2 Title
+## San Fracisco Police Incidents by Time of Day, 2018
 
 prose
 
@@ -11,6 +16,11 @@ data
 discussion 
 
 graph 
+
+```{r, echo=FALSE, message=F, warning=F}
+library("knitr")
+include_graphics("../figures/d2-SFcrime.png")
+```
 
 critique 
 
