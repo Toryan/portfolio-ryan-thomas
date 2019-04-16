@@ -78,3 +78,24 @@ variable name: Minimum inhibitory concentration
 **Prompt:** Re-read Wainer's conclusion section. What main points does he make about graph design or visual rhetoric that you could apply to your own work this term.
 
 **Response:** It is often good to have a question or questions in mind when making a chart that is supposed to be evidence of something. However making a more general graph to discover a question can also be a good strategy. For a given data set and question their are likely multiple good ways of making a chart, so don't just make one design then stop.
+
+week 6 reading prompts
+----------------------
+
+Dragga, Sam & Dan Voss (2001) Cruel pies: The inhumanity of technical illustrations. *Technical Communication* 48(3): 265--274.
+
+**Prompt:** Explain how the prevalent treatment of ethics in visual communication is lacking.
+
+**Response:** According to Voss and Draga, while most experts in visual communication do a good job in teaching how to create efficient and truthful displays, they ignore the possible harm that can come from purely technical display about human suffering. This is because much of the foundation for the discipline of visual communication has come from the sciences, rather than more humanistic fields.
+
+**Prompt:** Explain the purpose of "humanizing" data displays depicting human suffering or death.
+
+**Response:** By humanizing a display of data (through adding human images or context) the display can be made more sensitive, and potentially less painful to those who view it. In particular people who are victims of the suffering shown by the display would benefit the most from that sort of modification.
+
+**Prompt:** Consider the authors' attempts at redesigning such data displays. Did one in particular strike you as ineffective? Explain
+
+**Response:** Figures 10 and 11 (bed fire abd baby walker) both struck me as worse than the originals. By simply adding some sort of stock image / cartoon to the display they seem to trivialize the suffering, which is much worse than just being insensitive.
+
+**Prompt:** Did one in particular strike you as effective? Explain.
+
+**Response:** Figure 7 (Napoleon) worked well. The use of symbolic pictographs was a good choice, giving a human element without the trivial feeling of a stock photograph or cartoon. The display of the different kinds of soldiers was good (the horesmen, cannons, riflemen, etc) because it broke down the amorphus idea of the "army" into human individuals.
