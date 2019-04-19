@@ -1,6 +1,16 @@
 
 ## correspondence
 
+### 2019-04-19
+
+**RL** D3 presentation notes.
+
+Good work.
+
+Same data plus additional quantitative variables coud be dataset for a
+co-plot (3 or 4 quantities) or a parallel-coord plot (any number of
+quantitative variables)
+
 ### 2019-04-05
 
 **RL** D2 presentation notes.
