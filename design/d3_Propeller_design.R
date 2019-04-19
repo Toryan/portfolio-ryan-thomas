@@ -21,7 +21,7 @@ ggplot(data = df10, aes(x = rpmk, y = CT)) +
 
 ggsave(filename = "d3_Propeller.png",
        path    = "figures",
-       width   = 4.5,
+       width   = 4.6,
        height  = 6,
        units   = "in",
        dpi     = 400)

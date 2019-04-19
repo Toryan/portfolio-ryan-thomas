@@ -6,9 +6,10 @@ library("graphclassmate")
 
 df <- readRDS("data/d2-SFcrime-data.rds")
 
-ggplot(df, aes(x = n, y = category)) +
+ggplot(df, aes(x = timeofday, y = n)) +
   geom_point() +
-  facet_wrap(vars(timeofday), ncol = 1, as.table = FALSE) +
+  
+  facet_wrap(vars(category), ncol = 1, as.table = FALSE) +
   #scale_x_continuous(trans = 'log2', breaks = c(2,4,8)) +
   scale_x_log10(breaks = c(0,1, 10, 100))+
   labs(x = "Number of Incidents (Hundreds) log-10 scale", y = NULL,
