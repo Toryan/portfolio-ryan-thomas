@@ -44,7 +44,7 @@ Explain each design choice and cite its supporting reference
 - I made the graph very large so it could accomidate the labeling I wanted. [@Doumont:2009]
 - I jittered th outliers and made them translucent so that they can all be seen. [@Robbins:2013a]
 - I only labeled a few key outliers because labeling too many of them would cause the data to become unreadible. [@Robbins:2013a]
-- I ordered the data by its mean, going from highest to lowest.This makes it easier to pick out discrepencies between the data sets.
+- I ordered the data by its mean, going from highest to lowest.This makes it easier to pick out discrepencies between the data sets. [@Knaflic:2013-09]
 - I used a cubic scale to serve the same purpose as a log scale, but It also works for negative numbers [@Wainer:2014]
 
 Comments from peers 
@@ -61,7 +61,7 @@ State the number of observations: 100
 
 List the variables:
 
-Variable name: Number of Indidents
+Variable name: Number of Incididents
 
 - type: Quantitative, discrete
 
@@ -72,7 +72,7 @@ variable name: Category of Indident
 
 variable name: Time of day
 
-- type: Categorical, Ordinal
+- type: Categorical, ordinal
 - levels (if categorical): 4
 
 
@@ -90,51 +90,51 @@ Explain each design choice and cite its supporting reference
 - I used a position representation (dots) rather than a length representation (bars) because I am using a logscale and a bar chart is not suited to that [@Doumont:2009]
 - I chose to have 5 columns and 5 rows because more than 5 becomes overly difficult to read [@Doumont:2009]
 - I maintained a constant scale and order of variables in each multiple so they can be easily compared [@Robbins:2013a]
-- I ordered the data by its mean, going from highest to lowest.This makes it easier to pick out discrepencies between the data sets.
+- I ordered the data by its mean, going from highest to lowest.This makes it easier to pick out discrepencies between the data sets. [@Knaflic:2013-09]
 
-
-[@Doumont:2009]
-[@Robbins:2013a]
-[@Wainer:2014]
 
 
 Comments from peers 
 
-- Does the data structure satisfy the portfolio display requirements?  
-- From the Doumont paper, what type of story is being told? 
-- Is the graph type suited to the data structure? 
-- Other suggestion 
-- etc
-
-
-
+- SWAP THE AXES, time always on x
+- bin to 1 hour, even thrity minute increments
+- time can work as a category but be careful with it
 
 ## D3 correlations 
 
-State the number of observations:  
+State the number of observations: 144
 
 List the variables: 
 
-- quantitative var 1 
-- quantitative var 2 
-- etc 
-- categorical var 1 and its levels 
-- categorical var 1 and its levels 
-- etc 
+Variable name: Propeller Angular Velocity
 
-State the graph type: 
+- type: Quantitative, continuous
+
+variable name: Propeller Thrust Coefficient
+
+- type: Quantitative, continuous
+
+variable name: Propeller Brand
+
+- type: Categorical, nominal
+- levels (if categorical): 9
+
+State the graph type: Scatterplot
 
 Explain why the graph type is suited to the data structure:  
 
-- point 1 
-- point 2 
-- etc 
+- There are two quantitative sets of data that I am looking for a correlation between, which is the purpose of the scatterplot.
 
 Explain each design choice and cite its supporting reference 
 
-- choice, reference 
-- choice, reference 
-- etc 
+- I maintained a constant scale and order of variables in each facet so they can be easily compared [@Robbins:2013a]
+- I have faceted on the categorical variable because 9 is too many colors or shapes to keep track of, and the different levels can still be easily compared even when faceted. When plotting on the same graphs some of the symbols or colors blend together, making the dispay look cluttered [@Doumont:2009]
+- I ordered the data by its mean, going from highest (Top right) to lowest (bottom left).This grouping of categories makes it easier to pick out discrepencies between the data sets. [@Knaflic:2013-09]
+- I made the graph as small as I could without making the labels indistinguishable. This helps emphasize the data [@Doumont:2009].
+- Another reason I went with the Facet was to avoid having the audience memorize a legend [@Wainer:2014]
+- I changed the x label from RPM to thousand RPM so they woulden't write over each other.
+
+
 
 Comments from peers 
 
@@ -198,6 +198,11 @@ Explain each design choice in the redesign and cite its supporting reference
 - choice, reference 
 - choice, reference 
 - etc 
+
+[@Doumont:2009]
+[@Robbins:2013a]
+[@Wainer:2014]
+[@Knaflic:2013-09]
 
 Comments from peers 
 

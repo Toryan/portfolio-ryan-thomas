@@ -5,7 +5,7 @@ Portfolio of data displays
 ==========================
 
 Thomas Ryan
-2019-04-05
+2019-04-19
 
 Introduction
 ------------
@@ -21,8 +21,8 @@ This box plot shows the balance of trade between the US and all the countries it
 [Display 2](reports/d2.md) San Fracisco Police Incidents by Time of Day, 2018
 This multiway dot plot shows the number of several types of police recorded incidents seperated into four parts of the day (Morning, Afternoon, Evening, Night).
 
-[Display 3](reports/d3.md) Title of your graph
-State the type of graph (scatterplot) and summarize the main points of the report.
+[Display 3](reports/d3.md) Comparison of Small-Scale propeller Brands
+This group of scatterplots shows the difference in thrust efficiency between several propellers with similar specifications across various brands.
 
 [Display 4](reports/d4.md) Title of your graph
 State the type of graph (dot plot, line graph, or scatterplot) and summarize the main points of the report.
