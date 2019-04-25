@@ -126,7 +126,7 @@ Explain each design choice and cite its supporting reference
 
 Comments from peers
 
--   Could use in another display, multivariate data, more of a story (power, torque) (coplot, parrellel coordinate)
+-   Could use in another display, multivariate data, more of a story (power, torque) (coplot 3 or 4, parrellel coordinate any number)
 -   9 columns in one row, much easier to compare, easier to get to 45 degrees can shorten name
 
 D4 injuries or fatalities displayed ethically
