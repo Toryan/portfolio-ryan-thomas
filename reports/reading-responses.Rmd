@@ -141,3 +141,20 @@ illustrations. *Technical Communication* 48(3): 265--274.
 
 **Response:** Figure 7 (Napoleon) worked well. The use of symbolic pictographs was a good choice, giving a human element without the trivial feeling of a stock photograph or cartoon. The display of the different kinds of soldiers was good (the horesmen, cannons, riflemen, etc) because it broke down the amorphus idea of the "army" into human individuals. 
 
+## reflections on rhetoric: graphical lies
+
+- Describe the author's idea or ideas that you found most memorable. 
+- Discuss how you will apply the idea(s) to one of your designs
+
+
+<br>
+**Reading:** How to display data badly (Wainer, 2000)
+
+**Response:** The graph of the docters salary vs other professionals was powerful. I had never considered changing time (in years) to a non-linear scale. It is extemely misleading and not easily noticeable. I will make sure with my displays to be careful about changing the time scale to something non-linear. In the vast majority of situation it would be more misleading than helpful.
+
+
+<br>
+**Video:** [How charts lie](https://www.youtube.com/watch?v=Cd046xZhO_8&t=21m29s) by Alberto Cairo    
+
+**Response:** Cairo's point on using the wrong data was particularly memerable for me. This is something I see a lot, the use of very specific metrics to tell a desired story or the use discedited sources. It is one of the hardest bad graph types to debunk. However it seems generally easy to avoid. You will only use those very specific metrics if you spent a long time searching for them, for most topics it is easy to find reputable sources. So, as long as I remeber to avoid disreputable sources and data mining I should be fine.
+

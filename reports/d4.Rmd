@@ -1,17 +1,41 @@
 ---
-output: github_document
+output: 
+  github_document: 
+    pandoc_args: "--webtex"
+bibliography: "../resources/references.bib"
+link-citations: yes
+csl: "../resources/journal-of-glaciology.csl"
 ---
 
-## D4 Title
+## Death by Air Pollution in the United States COmpared with the World
 
-prose
+###Requirements  
+ - 18525 Observations of mortality (20 req.)
+ - air pollution mortality (injury or fatality req.)
+ - 3 categorical: time, country, pollution type (one req.)
+ 
+###Report
 
-data
 
-discussion 
+```{r, echo=FALSE, message=F, warning=F}
+library("knitr")
+include_graphics("../figures/d4-pollutionMortality-1.png")
+```
 
-graph 
 
-critique 
 
-references
+
+
+
+```{r, echo=FALSE, message=F, warning=F}
+library("knitr")
+include_graphics("../figures/d4-pollutionMortality-2.png")
+```
+
+
+
+
+
+
+###references
+<div id="refs"></div>
