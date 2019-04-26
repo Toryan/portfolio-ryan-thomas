@@ -1,11 +1,26 @@
 
 ## correspondence
 
+### 2019-04-26
+
+**RL** D4 presentation notes.
+
+Could be building codes that cause low residential PM.
+
+Possibly label the top one or two lines with the country label in each
+panel.
+
+Long quote could be in the critique.
+
+Lines gray, grids lighter gray
+
+Possibly inset a bar chart to humanize
+
+Image above each panel showing us what PM looks like, e.g.
+
 ### 2019-04-19
 
-**RL** D3 presentation notes.
-
-Good work.
+**RL** D3 presentation notes. c Good work.
 
 Same data plus additional quantitative variables coud be dataset for a
 co-plot (3 or 4 quantities) or a parallel-coord plot (any number of
