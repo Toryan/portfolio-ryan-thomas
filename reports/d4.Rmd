@@ -16,7 +16,7 @@ csl: "../resources/journal-of-glaciology.csl"
  
 ###Report
 
-
+Unethical:
 ```{r, echo=FALSE, message=F, warning=F}
 library("knitr")
 include_graphics("../figures/d4-pollutionMortality-1.png")
@@ -24,9 +24,7 @@ include_graphics("../figures/d4-pollutionMortality-1.png")
 
 
 
-
-
-
+Ethical:
 ```{r, echo=FALSE, message=F, warning=F}
 library("knitr")
 include_graphics("../figures/d4-pollutionMortality-2.png")
