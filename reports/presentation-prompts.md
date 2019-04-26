@@ -134,62 +134,70 @@ D4 injuries or fatalities displayed ethically
 
 **Context**
 
-Type of injury or fatality:
+Type of injury or fatality: death caused by air pollution.
 
-People affected:
+People affected: ranges from &lt;50 per 1 million to 1500 per 1 million depending on time and country.
 
-Over what span of time:
+Over what span of time: 1999 to 2017.
 
 **Graph the data conventionally**
 
 -   If you are redesigning someone else's graph, include an image of the original
 -   If not, graph the data yourself using a graph type suited to the data
 
-State the number of observations:
+State the number of observations: 18525
 
 List the variables:
 
--   quantitative var 1
--   quantitative var 2
--   etc
--   categorical var 1 and its levels
--   categorical var 1 and its levels
--   etc
+Variable name: Year
 
-State the graph type:
+-   type: Quantitative, discrete
+
+variable name: Number of deaths per million
+
+-   type: Quantitative, continuous
+
+variable name: Country
+
+-   type: Categorical, nominal
+-   levels (if categorical): 5
+
+variable name: Pollution type
+
+-   type: Categorical, nominal
+-   levels (if categorical): 195
+
+State the graph type: Linegraph
 
 Explain why the graph type is suited to the data structure:
 
--   point 1
--   point 2
--   etc
+-   It suits the timeseries data, allowing trends to be seen. If the lines were dots they would all blend together.
 
 Explain the visual-rhetoric features of the graph that make it unethical:
 
--   point
--   point
--   etc
+-   According to Voss and Dragga the lack of "humanizing" features that demonstrate the human suffering that results from the pollution makes the graph unethical.
+-   If someone who was a victim of disease from pollution came across this graph they might hypothetically be hurt or offended by it.
 
 **Redesign the graph to display the data ethically**
 
-State the new graph type (if any):
+State the new graph type (if any): Same.
 
 Explain each design choice in the redesign and cite its supporting reference
 
--   choice, reference
--   choice, reference
--   etc
-
-(Doumont, [2009](#ref-Doumont:2009)) (Robbins, [2013](#ref-Robbins:2013a)) (Wainer, [2014](#ref-Wainer:2014)) (Knaflic, [2013](#ref-Knaflic:2013-09))
+-   I maintained a constant scale and order of variables in each facet so they can be easily compared (Robbins, [2013](#ref-Robbins:2013a))
+-   I ordered the data by its mean, going from highest to lowest. This grouping of categories makes it easier to pick out discrepencies between the data sets. (Knaflic, [2013](#ref-Knaflic:2013-09))
+-   I made the graph as small as I could without making the labels indistinguishable. This helps emphasize the data (Doumont, [2009](#ref-Doumont:2009)).
+-   Another reason I went with the Facet was to avoid having the audience memorize a legend (Wainer, [2014](#ref-Wainer:2014))
+-   I changed the x label from year to the last two digits of the year so they woulden't write over each other.
+-   I used text about the suffering caused by the pollution to humanize the data (Dragga and Voss, [2001](#ref-Dragga+Voss:2001)).
 
 Comments from peers
 
--   Any suggestions on improving the ethical display of injuries or fatalities?
--   Does the data structure satisfy the portfolio display requirements?
--   From the Doumont paper, what type of story is being told?
--   Is the graph type suited to the data structure?
--   Other suggestion
--   etc
+-   Put quote in critique or to side of graph
+-   make a graph out of the left text
+-   try gray for lines and and try removing gridlines / border
+-   label some other lines
+-   image of particulate matter
 
 D5 redesign a graphical lie
 ---------------------------
@@ -244,6 +252,8 @@ Comments from peers
 -   Is the graph type suited to the data structure?
 -   Other suggestion
 -   etc
+
+(Doumont, [2009](#ref-Doumont:2009)) (Robbins, [2013](#ref-Robbins:2013a)) (Wainer, [2014](#ref-Wainer:2014)) (Knaflic, [2013](#ref-Knaflic:2013-09))
 
 D6 multivariate
 ---------------
@@ -321,6 +331,8 @@ References
 ==========
 
 Doumont J-l (2009) Designing the graph. *Trees, maps, and theorems: Effective communication for rational minds*. Principiae, Kraainem, Belgium, 133–143 <http://www.treesmapsandtheorems.com/>
+
+Dragga S and Voss D (2001) Cruel pies: The inhumanity of technical illustrations. *Technical Communication* **48**(3), 265–274
 
 Knaflic CN (2013) Logic in order. <http://tinyurl.com/yxf8gspl>
 

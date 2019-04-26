@@ -210,14 +210,11 @@ Explain each design choice in the redesign and cite its supporting reference
 
 Comments from peers 
 
-- Any suggestions on improving the ethical display of injuries or fatalities? 
-- Does the data structure satisfy the portfolio display requirements?  
-- From the Doumont paper, what type of story is being told? 
-- Is the graph type suited to the data structure? 
-- Other suggestion 
-- etc
-
-
+- Put quote in critique or to side of graph
+- make a graph out of the left text
+- try gray for lines and and try removing gridlines / border
+- label some other lines
+- image of particulate matter
 
 ## D5 redesign a graphical lie 
 
