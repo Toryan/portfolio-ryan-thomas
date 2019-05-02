@@ -113,3 +113,12 @@ reflections on rhetoric: graphical lies
 <br> **Video:** [How charts lie](https://www.youtube.com/watch?v=Cd046xZhO_8&t=21m29s) by Alberto Cairo
 
 **Response:** Cairo's point on using the wrong data was particularly memerable for me. This is something I see a lot, the use of very specific metrics to tell a desired story or the use discedited sources. It is one of the hardest bad graph types to debunk. However it seems generally easy to avoid. You will only use those very specific metrics if you spent a long time searching for them, for most topics it is easy to find reputable sources. So, as long as I remeber to avoid disreputable sources and data mining I should be fine.
+
+Kostelnick reading in class notes, and response
+-----------------------------------------------
+
+rhetorics: science, adaptation, participation, social. science: singe logical truth. social: people's backgrounds affect how they view it. adaptation: the context of the raph affects how people view it. participation: people change the way the data is presented.
+
+In summary, the main point of the Kostelnick paper is that the rhetoric of science is not the only valid rhetoric. In order for others to find a graphical display convincing (and even clear) it needs to be designed with the audience, time and location of use, and various other aspects in mind.
+
+For my graphs, if I use them outside of this course, it will almost certainly be in a context of people who are highly invested in the rhetoric of science (engineers, scientists). So, the natural thing for me to do-design the displays according to the rhetoric of science-would also coinicidentally be the most effective thing for me to do. Without knowledge of some other specific audience (and time & place) I would show the display to I can't learn their specific rhetoric. The time and location invarient nature of the rhetoric of science (or its attempt to reach that ideal) seems to mean that if I do not know the specific future use of my display it would be best to stay within the more general, if less convincing/clear to some, rhetoric of science.
