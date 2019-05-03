@@ -1,6 +1,18 @@
 
 ## correspondence
 
+### 2019-05-03
+
+**RL** D5 presentation notes.
+
+Good work.
+
+Can this vote be compared to a similar vote from an earlier Congress?
+
+<http://images.politico.com/global/2015/04/24/polarization_graphic_small.jpg>
+
+## correspondence
+
 ### 2019-04-26
 
 **RL** D4 presentation notes.
