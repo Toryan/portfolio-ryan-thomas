@@ -7,7 +7,7 @@ link-citations: yes
 csl: "../resources/journal-of-glaciology.csl"
 ---
 
-## Death by Air Pollution in the United States COmpared with the World
+## Death by Air Pollution in the United States Compared with the World
 
 ###Requirements  
  - 18525 Observations of mortality (20 req.)

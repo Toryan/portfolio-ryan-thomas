@@ -1,17 +1,35 @@
 ---
-output: github_document
+output: 
+  github_document: 
+    pandoc_args: "--webtex"
+bibliography: "../resources/references.bib"
+link-citations: yes
+csl: "../resources/journal-of-glaciology.csl"
 ---
 
-## D5 Title
+## Redesigning a misleading political graph
 
-prose
+###Requirements  
+ - 100 Observations of votes (20 req.)
+ - 1 quantitative variable: donation amount (1 req.)
 
-data
+###Report
 
-discussion 
+```{r, echo=FALSE, message=F, warning=F}
+library("knitr")
+include_graphics("../resources/d5-telecomSenate-original.png")
+```
 
-graph 
+```{r, echo=FALSE, message=F, warning=F}
+library("knitr")
+include_graphics("../figures/d5-telecomSenate.png")
+```
 
-critique 
 
-references
+
+
+
+
+
+###references
+<div id="refs"></div>

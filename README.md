@@ -5,7 +5,7 @@ Portfolio of data displays
 ==========================
 
 Thomas Ryan
-2019-04-19
+2019-05-03
 
 Introduction
 ------------
@@ -24,11 +24,11 @@ This multiway dot plot shows the number of several types of police recorded inci
 [Display 3](reports/d3.md) Comparison of Small-Scale propeller Brands
 This group of scatterplots shows the difference in thrust efficiency between several propellers with similar specifications across various brands.
 
-[Display 4](reports/d4.md) Title of your graph
-State the type of graph (dot plot, line graph, or scatterplot) and summarize the main points of the report.
+[Display 4](reports/d4.md) Death by Air Pollution in the United States Compared with the World
+These line graphs show death by different varietie of air pollution over the last aproximatly 20 years in the US. They are compared with similar deaths in the rest of the world. There is both a classical (and unethical) display included, and a sensitive and ethical one.
 
-[Display 5](reports/d5.md) Title of your graph
-State the type of graph (dot plot, line graph, or scatterplot) and summarize the main points of the report.
+[Display 5](reports/d5.md) Telecom Donations Have little effect on senate vote compared with party
+This strip plot is a resign of a bar chart that better shows the relationship between part, donation, and vote in a ruling on an FCC privacy rule.
 
 [Display 6](reports/d6.md) Title of your graph
 State the type of graph (co-plot, scatterplot matrix, or parallel coordinate plot) and summarize the main points of the report.

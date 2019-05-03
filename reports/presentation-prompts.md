@@ -204,13 +204,14 @@ D5 redesign a graphical lie
 
 **The original deceptive graph**
 
-The original image is included in the portfolio: Yes / No
+The original image is included in the portfolio: Yes
 
 Explain the visual-rhetoric features of the graph that make it deceptive:
 
--   point
--   point
--   etc
+-   It panders to a specific political audience
+-   It limits the data shown to one political party and one voting pattern in order to fit it's agenda.
+-   It suggestions a correlation (between money donated and voting yes) where there is none.
+-   There is no comparison, just raw numbers and an ideological implication.
 
 Comments from peers
 
@@ -220,30 +221,35 @@ Comments from peers
 
 **The redesigned graph**
 
-State the number of observations:
+State the number of observations: 100
 
 Identify the variables:
 
--   quantitative var 1
--   quantitative var 2
--   etc
--   categorical var 1 and its levels
--   categorical var 1 and its levels
--   etc
+Variable name: Donation Amount - type: Quantitative, discrete
+
+variable name: Party
+
+-   type: Categorical, nominal
+-   levels (if categorical): 3
+
+variable name: Vote
+
+-   type: Categorical, nominal
+-   levels (if categorical): 2
 
 State the graph type:
 
 Explain why the graph type is suited to the data structure:
 
--   point 1
--   point 2
--   etc
+-   I want to compare one quantitative variable across multiple categories, which is what a dot plot is made for.
+-   100 observations is small enought that a box and whisker plot might obscure more than it would clarify.
 
 Explain each design choice and cite its supporting reference
 
--   choice, reference
--   choice, reference
--   etc
+-   I jittered the data and made them translucent so that they can all be seen. (Robbins, [2013](#ref-Robbins:2013a))
+-   I directly labeled the points so the viewer doesn't need to memorize a legend (Wainer, [2014](#ref-Wainer:2014))
+-   I colored the data by convention, to match what a viewer would expect.
+-   I included all the data from the vote, to provide context (Wainer, [2000](#ref-Wainer:2000:Ch.1))
 
 Comments from peers
 
@@ -252,8 +258,6 @@ Comments from peers
 -   Is the graph type suited to the data structure?
 -   Other suggestion
 -   etc
-
-(Doumont, [2009](#ref-Doumont:2009)) (Robbins, [2013](#ref-Robbins:2013a)) (Wainer, [2014](#ref-Wainer:2014)) (Knaflic, [2013](#ref-Knaflic:2013-09))
 
 D6 multivariate
 ---------------
@@ -269,7 +273,7 @@ List the variables:
 -   categorical var 1 and its levels
 -   etc
 
-State the graph type:
+State the graph type: strip plot
 
 Explain why the graph type is suited to the data structure:
 
@@ -282,6 +286,8 @@ Explain each design choice and cite its supporting reference
 -   choice, reference
 -   choice, reference
 -   etc
+
+(Doumont, [2009](#ref-Doumont:2009)) (Robbins, [2013](#ref-Robbins:2013a)) (Wainer, [2014](#ref-Wainer:2014)) (Knaflic, [2013](#ref-Knaflic:2013-09)) (Wainer, [2000](#ref-Wainer:2000:Ch.1))
 
 Comments from peers
 
@@ -337,5 +343,7 @@ Dragga S and Voss D (2001) Cruel pies: The inhumanity of technical illustrations
 Knaflic CN (2013) Logic in order. <http://tinyurl.com/yxf8gspl>
 
 Robbins N (2013) General principles for creating effective graphs. *Creating More Effective Graphs*. Chart House, Wayne, NJ, 154–225 <http://www.nbr-graphs.com/resources/recommended-books/>
+
+Wainer H (2000) Graphical failures: How to display data badly. *Visual revelations: Graphical tales of fate and deception from Napoleon Bonaparte To Ross Perot*. Psychology Press, Mahwah, NJ, 11–40
 
 Wainer H (2014) Fifteen displays about one thing. *Medical illuminations: Using evidence, visualization, and statistical thinking to improve healthcare*. Oxford University Press, Oxford, UK, 32–49
