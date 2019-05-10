@@ -2,16 +2,20 @@
 output: github_document
 ---
 
-## D6 Title
+###Requirements  
+ - 244 Observations (20 req.)
+ - 3 quantitative variable: RPM, CT, CP (3 req.)
 
-prose
+###Report
 
-data
+The following fraphs are a continuation on my work from d3.
 
-discussion 
+```{r, echo=FALSE, message=F, warning=F}
+library("knitr")
+include_graphics("../figures/d6-PropellerMultiVar-1.png")
+```
 
-graph 
-
-critique 
-
-references
+```{r, echo=FALSE, message=F, warning=F}
+library("knitr")
+include_graphics("../figures/d6-PropellerMultiVar-2.png")
+```
