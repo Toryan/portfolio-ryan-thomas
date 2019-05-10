@@ -2,6 +2,7 @@
 library("tidyverse") # loads the readr package 
 library("graphclassmate")
 library("GGally")
+library("scagnostics")
 
 df9 <- readRDS("data/d6-PropellerMultiVar-data.rds")
 
@@ -31,6 +32,8 @@ ggsave(filename = "d6-PropellerMultiVar-1.png",
 ggparcoord(data = dfdynamic, columns = c(1,2,3,6), groupColumn  = "name",
            scale        = "std",
            title        = "Dynamic tests, 9 inch diameter, 6 degree pitch",
+           missing      = "exclude",
+           order        = "Sparse",
            mapping      = NULL)+
   labs(x = NULL, y = NULL) +
   theme_graphclass()
@@ -42,5 +45,5 @@ ggsave(filename = "d6-PropellerMultiVar-2.png",
        units   = "in",
        dpi     = 400)
 
-
+View(dfdynamic)
 
