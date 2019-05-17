@@ -169,5 +169,49 @@ In summary, the main point of the Kostelnick paper is that the rhetoric of scien
 
 For my graphs, if I use them outside of this course, it will almost certainly be in a context of people who are highly invested in the rhetoric of science (engineers, scientists). So, the natural thing for me to do-design the displays according to the rhetoric of science-would also coinicidentally be the most effective thing for me to do. Without knowledge of some other specific audience (and time & place) I would show the display to I can't learn their specific rhetoric. The time and location invarient nature of the rhetoric of science (or its attempt to reach that ideal) seems to mean that if I do not know the specific future use of my display it would be best to stay within the more general, if less convincing/clear to some, rhetoric of science.
 
+## week 10 reading prompts  
+
+Spence, Ian (2006) William Playfair and the psychology of graphs. In: *IEEE
+Transactions on Professional Communication.* Alexandria, VA: American
+Statistical Association, section on statistical graphics, 2426--2436.
+
+<br>
+**Prompt:** Explain what the author means by the "psychology of graphs." 
+
+**Response:** The psychological mechanisims behind sight affects how people read graphs. If graphs take this into account it helps people to undersand the graphs more fully and quickly. For example, human short term visual memory is limited to only a few objects, so graphs should limit the number of elements a person has to pay attention to. 
+
+
+
+<br>
+**Prompt:**  Psychology was identified as its own science in the 1730s and 
+experimental psychology research began in the 1830s. Thus William Playfair's 
+life (1759--1823) overlapped the beginnings of psychology as a science. But 
+he was not a psychologist---he was a craftsman by trade who was exposed to the 
+best minds of the Scottish Enlightenment. His experience included engineering, 
+commerce, and publishing (as well as dubious investment schemes and attempted 
+extortion). Nevertheless, the author makes connections between Playfair and 
+psychology. 
+
+Describe those connections.  
+
+**Response:**  Playfairs interactions withe Dugald Stewart and Thomas reid (early psychologists) influenced him. He also drafted for James Watt, giving him some experiance with making human readable diagrams. Maps, over time, had through trial and error become more compatible with human psychology. So Playfairs experiance with cartography allowed him to take those lessons and apply them to graphs. For example, Playfair realized People are good at comparing lengths, so length is a good element to reprsent quantiy. People can easily distinguish distinct colors, so color is a good element to represent category. 
+
+
+
+<br>
+**Prompt:** In section 2.3, the author describes 5 examples of graphical 
+conventions that Playfair invented or adapted. Discuss your interpretation of 
+each convention in light of our other readings and discussions this term. 
+
+**Response:** Color: The use of color to color to distinguish category makes me think of Tuftes "comparison" style of graph. Color is definitly better used on the categorical side of things than quantitative.
+  
+slope: the use of slope to represent trends seems so natural (from calculus) that it seems hard to imagine doing it any other way. Playfair seemed very focused on evolution over time, and slope comes very naturally out of those sort of graphs.
+
+length: The psychological background behind the use of length to code quantity makes it obvious why a bar char that doesn't start at zero is a lie. the point of using length is that people can easily compare length and therefore don't need another element (a axis or label) to see the diferences between categories, this no longer works with a non zero base.
+
+area: In general graph designers today are against the use area to code quantity. looking at Playfairs graph it just seems harder to see trends and precise differences in size. 
+
+subdividing the cirle (pie): This suffers similar problems as using area to encode quantity.
+
 
 

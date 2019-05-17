@@ -351,24 +351,35 @@ Comments from peers
 
 ## D7 self-taught  
 
-State the number of observations:  
+State the number of observations: 2232
 
 List the variables: 
 
-- quantitative var 1 
-- quantitative var 2 
-- etc 
-- categorical var 1 and its levels 
-- categorical var 1 and its levels 
-- etc  
+Variable name: number of people with a confidence level
 
-State the graph type: 
+- type: Quantitative, discrete
+
+variable name: confidence level
+
+- type: Categorical, ordinal
+- levels (if categorical): 4
+
+variable name: group
+
+- type: Categorical, nominal
+- levels (if categorical): 18
+
+variable name: country
+
+- type: Categorical, nominal
+- levels (if categorical): 3
+
+
+State the graph type: diverging stacked bar
 
 Explain why the graph type is suited to the data structure:  
 
-- point 1 
-- point 2 
-- etc 
+- I have Likert style survey data
 
 Explain each design choice and cite its supporting reference 
 
