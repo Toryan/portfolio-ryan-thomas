@@ -28,6 +28,16 @@ ggsave(filename = "d6-PropellerMultiVar-1.png",
        units   = "in",
        dpi     = 400)
 
+library("rJava")
+library("scagnostics")
+scagnostics(dfdynamic)
+
+
+
+
+
+
+
 
 ggparcoord(data = dfdynamic, columns = c(1,2,3,6), groupColumn  = "name",
            scale        = "std",
