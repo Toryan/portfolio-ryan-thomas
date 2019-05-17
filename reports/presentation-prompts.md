@@ -253,33 +253,47 @@ Explain each design choice and cite its supporting reference
 
 Comments from peers
 
--   Does the data structure satisfy the portfolio display requirements?
--   From the Doumont paper, what type of story is being told?
--   Is the graph type suited to the data structure?
--   Other suggestion
--   etc
+-   get more votes to compare withe -look at hyperpartizanship
 
 D6 multivariate
 ---------------
 
-State the number of observations:
+State the number of observations: 244
 
 List the variables:
 
--   quantitative var 1
--   quantitative var 2
--   etc
--   categorical var 1 and its levels
--   categorical var 1 and its levels
--   etc
+Variable name: Propeller Angular Velocity
 
-State the graph type: strip plot
+-   type: Quantitative, continuous
+
+variable name: Propeller Thrust Coefficient
+
+-   type: Quantitative, continuous
+
+variable name: Propeller Power Coefficient
+
+-   type: Quantitative, continuous
+
+variable name: Propeller efficiency, eta
+
+-   type: Quantitative, continuous
+
+variable name: Propeller Brand
+
+-   type: Categorical, nominal
+-   levels (if categorical): 2
+
+variable name: Test type
+
+-   type: Categorical, nominal
+-   levels (if categorical): 2
+
+State the graph type: Parellel coordinate plot
 
 Explain why the graph type is suited to the data structure:
 
--   point 1
--   point 2
--   etc
+-   I have several quantitative variables, with a couple categorical
+-   the comparison is more important than the correlation between the variables for me
 
 Explain each design choice and cite its supporting reference
 
@@ -300,24 +314,34 @@ Comments from peers
 D7 self-taught
 --------------
 
-State the number of observations:
+State the number of observations: 2232
 
 List the variables:
 
--   quantitative var 1
--   quantitative var 2
--   etc
--   categorical var 1 and its levels
--   categorical var 1 and its levels
--   etc
+Variable name: number of people with a confidence level
 
-State the graph type:
+-   type: Quantitative, discrete
+
+variable name: confidence level
+
+-   type: Categorical, ordinal
+-   levels (if categorical): 4
+
+variable name: group
+
+-   type: Categorical, nominal
+-   levels (if categorical): 18
+
+variable name: country
+
+-   type: Categorical, nominal
+-   levels (if categorical): 3
+
+State the graph type: diverging stacked bar
 
 Explain why the graph type is suited to the data structure:
 
--   point 1
--   point 2
--   etc
+-   I have Likert style survey data
 
 Explain each design choice and cite its supporting reference
 
