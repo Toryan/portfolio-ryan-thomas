@@ -107,6 +107,4 @@ df9 <- bind_rows(dfAPC,dfMA) %>%
   mutate(name = factor(name, labels = c("APC Slow Flyer", "MA Scimitar")))
 
 
-
-
 saveRDS(df9, "data/d6-PropellerMultiVar-data.rds")
