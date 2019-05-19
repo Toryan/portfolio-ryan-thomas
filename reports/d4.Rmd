@@ -37,7 +37,7 @@ This graph could be considerd to be unethical. According to Voss and Dragga the 
 Ethical:
 ```{r, echo=FALSE, message=F, warning=F}
 library("knitr")
-include_graphics("../figures/d4-pollutionMortality-2.png")
+include_graphics("../figures/d4-pollutionMortality-2.PNG")
 ```
 
 The goal of adding the text and dot plot to the right was to humanize the data, and thus make the display ethical [@Dragga+Voss:2001]. The dot plot shows how the air pollution kills, which makes the human suffering implied by the main display more specific. The paragraph from the COPD Foundation disucusses possible effects and symtoms of COPD, further reinforcing the human cost the the pollution.
