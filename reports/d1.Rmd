@@ -37,6 +37,6 @@ I made several design choices based on the dual goals of having a readable and i
 I considered having the commodities on the x-axis, which would give more room for the labels, but rotated text is difficult to read, so I put the commodities on the y-axis [@Doumont:2009]. I jittered the outliers and made them translucent so that they can all be seen [@Robbins:2013a]. I ordered the data by the outliers on the deficit side, going from lowest to highest. This makes it easier to pick out discrepancies between the categories [@Knaflic:2013-09]. I made the graph very large so it could accommodate the labeling I wanted, smaller is usually better but in this case the labels brought more value [@Doumont:2009]. Still, I only labeled the key outliers because labeling too many of them would cause the data to become unreadable. [@Robbins:2013a]
 
 
-references
+###references
 <div id="refs"></div>
 
