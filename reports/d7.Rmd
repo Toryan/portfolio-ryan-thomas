@@ -1,17 +1,26 @@
 ---
-output: github_document
+output: 
+  github_document: 
+    pandoc_args: "--webtex"
+bibliography: "../resources/references.bib"
+link-citations: yes
+csl: "../resources/journal-of-glaciology.csl"
 ---
 
-## D7 Title
+## Reported level of confidence in institutions, by country, 2014
 
-prose
+```{r, echo=FALSE, message=F, warning=F}
+library("knitr")
+include_graphics("../figures/d7-InstitutionalConfidence-1.png")
+```
+```{r, echo=FALSE, message=F, warning=F}
+library("knitr")
+include_graphics("../figures/d7-InstitutionalConfidence-2.png")
+```
+```{r, echo=FALSE, message=F, warning=F}
+library("knitr")
+include_graphics("../figures/d7-InstitutionalConfidence-2.png")
+```
 
-data
-
-discussion 
-
-graph 
-
-critique 
-
-references
+###references
+<div id="refs"></div>

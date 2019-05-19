@@ -33,8 +33,7 @@ This strip plot is a resign of a bar chart that better shows the relationship be
 [Display 6](reports/d6.md) Comparison of Small-Scale propeller Brands 2
 This parallel coordinate plot expands on Display 3, adding more variables to reveal more insights
 
-[Display 7](reports/d7.md) American Reported Level of Confidence in Various Institutions, 2014
-This diverging stacked bar chart shows the various levels of confidence people have in different institutions.
+[Display 7](reports/d7.md) Reported level of confidence in institutions, by country, 2014 This diverging stacked bar chart shows the various levels of confidence people have in different institutions.
 
 Discussion notes
 ----------------

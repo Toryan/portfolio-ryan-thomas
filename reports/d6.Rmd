@@ -1,14 +1,27 @@
 ---
-output: github_document
+output: 
+  github_document: 
+    pandoc_args: "--webtex"
+bibliography: "../resources/references.bib"
+link-citations: yes
+csl: "../resources/journal-of-glaciology.csl"
 ---
 
-###Requirements  
- - 244 Observations (20 req.)
- - 3 quantitative variable: RPM, CT, CP (3 req.)
+## Comparison of Small-Scale propeller Brands 2
 
-###Report
+This graph expands on d3, so read that before this one. The follwing displays use several of the test results availible to compare the best and worst performing brand from d3 in a static, but also dynamic test. The first display essentially contains the information in the d3 display for the two propellers, but the second has the dynamic test results.
 
-The following fraphs are a continuation on my work from d3.
+### Requirements 
+
+This display (the second one) meets the data requirements for D6  
+
+- 244 observations 
+- Five quantitative variable: Thrust coefficient, rpm, power coefficient, efficiency, and velocity
+- Two categorical variables: brand (9 levels) and test typw (two levels)
+
+This display also meets the following document requirement 
+
+- Technical data (2/2)
 
 ```{r, echo=FALSE, message=F, warning=F}
 library("knitr")
@@ -19,3 +32,10 @@ include_graphics("../figures/d6-PropellerMultiVar-1.png")
 library("knitr")
 include_graphics("../figures/d6-PropellerMultiVar-2.png")
 ```
+
+Power coefficient, like thrust coefficient, in the display is a nondimensionalized version of power that allows the relative efficiency of different propellers to be easily compared, and eta is an overall efficiency. 
+
+The main takeaway from the display is that there is a difference between these propellers. Some propellers produce much more static thrust than others. Not only that, but the amount of increased efficiency with RPM can vary dramatically. While the APC Slow Flyer benefits greatly with increased RPM, the Graupner Super Nylon is equally efficient at most RPMs. This has significant implications on motor choice. This display shows the benefit of choosing the right propeller for static thrust, however, It makes me ask what the costs are. The next step would be to look at the dynamic Tests to see if the propellers are trading dynamic for static performance.
+
+###references
+<div id="refs"></div>

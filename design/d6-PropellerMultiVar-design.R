@@ -24,7 +24,8 @@ ggparcoord(data = dfstatic, columns = 1:3, groupColumn  = "name",
            title        = "Static tests, 9 inch diameter, 6 degree pitch",
            mapping      = NULL)+
   labs(x = NULL, y = NULL) +
-  theme_graphclass()
+  theme_graphclass() +
+  scale_color_manual(values = c(rcb("dark_BG"), rcb("dark_Br")))
 
 ggsave(filename = "d6-PropellerMultiVar-1.png",
        path    = "figures",
@@ -33,25 +34,17 @@ ggsave(filename = "d6-PropellerMultiVar-1.png",
        units   = "in",
        dpi     = 400)
 
-library("rJava")
-library("scagnostics")
-scagnostics(dfdynamic)
+dfdynamic <- mutate(dfdynamic, velocity = J*RPM*2*3.14156/60*9*.0254) %>%
+  mutate(velocity = velocity)
 
-
-
-
-
-
-
-
-ggparcoord(data = dfdynamic, columns = c(1,2,3,6), groupColumn  = "name",
+ggparcoord(data = dfdynamic, columns = c(1,2,3,8,6), groupColumn  = "name",
            scale        = "std",
            title        = "Dynamic tests, 9 inch diameter, 6 degree pitch",
            missing      = "exclude",
-           order        = "Skewed",
            mapping      = NULL)+
   labs(x = NULL, y = NULL) +
-  theme_graphclass()
+  theme_graphclass() +
+  scale_color_manual(values = c(rcb("dark_BG"), rcb("dark_Br")))
 
 ggsave(filename = "d6-PropellerMultiVar-2.png",
        path    = "figures",
@@ -60,8 +53,3 @@ ggsave(filename = "d6-PropellerMultiVar-2.png",
        units   = "in",
        dpi     = 400)
 
-glimpse(dfdynamic)
-
-?scagnostics()
-
-scagnostics(dfdynamic)
