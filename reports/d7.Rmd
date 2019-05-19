@@ -9,6 +9,16 @@ csl: "../resources/journal-of-glaciology.csl"
 
 ## Reported level of confidence in institutions, by country, 2014
 
+### Requirements 
+
+This display meets the data requirements for D7 diverging stacked bar
+
+- 2232 observations 
+- One quantitative variable: number of people with confidence level
+- Two categorical variables: confidence level (4 levels), group (18 levels), and country (3 levels)
+
+This display also meets the following document requirement 
+
 ```{r, echo=FALSE, message=F, warning=F}
 library("knitr")
 include_graphics("../figures/d7-InstitutionalConfidence-1.png")
