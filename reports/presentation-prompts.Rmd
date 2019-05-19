@@ -42,10 +42,10 @@ Explain each design choice and cite its supporting reference
 
 - I put the commodities on the y-axis, so they could be easily read, which was more important then easily reading labeled data points. [@Doumont:2009]
 - I made the graph very large so it could accomidate the labeling I wanted. [@Doumont:2009]
-- I jittered th outliers and made them translucent so that they can all be seen. [@Robbins:2013a]
+- I jittered the outliers and made them translucent so that they can all be seen. [@Robbins:2013a]
 - I only labeled a few key outliers because labeling too many of them would cause the data to become unreadible. [@Robbins:2013a]
-- I ordered the data by its mean, going from highest to lowest.This makes it easier to pick out discrepencies between the data sets. [@Knaflic:2013-09]
-- I used a cubic scale to serve the same purpose as a log scale, but It also works for negative numbers [@Wainer:2014]
+- I ordered the data by the outliers on the deficiet side, going from lowest to highest. This makes it easier to pick out discrepencies between the categories. [@Knaflic:2013-09]
+
 
 Comments from peers 
 
@@ -57,7 +57,7 @@ Comments from peers
 
 ## D2 multiway 
 
-State the number of observations: 100 
+State the number of observations: 528 
 
 List the variables:
 
@@ -68,12 +68,12 @@ Variable name: Number of Incididents
 variable name: Category of Indident
 
 - type: Categorical, nominal
-- levels (if categorical): 25
+- levels (if categorical): 22
 
 variable name: Time of day
 
 - type: Categorical, ordinal
-- levels (if categorical): 4
+- levels (if categorical): 24
 
 
 State the graph type: Multiway
@@ -88,7 +88,7 @@ Explain each design choice and cite its supporting reference
 
 - I put the Incident Category on the y-axis, so they could be easily read [@Doumont:2009]
 - I used a position representation (dots) rather than a length representation (bars) because I am using a logscale and a bar chart is not suited to that [@Doumont:2009]
-- I chose to have 5 columns and 5 rows because more than 5 becomes overly difficult to read [@Doumont:2009]
+- There are 11 columns and 2 rows to make the slopes closer 45 degrees and make it easier to see trends [@?]
 - I maintained a constant scale and order of variables in each multiple so they can be easily compared [@Robbins:2013a]
 - I ordered the data by its mean, going from highest to lowest.This makes it easier to pick out discrepencies between the data sets. [@Knaflic:2013-09]
 
@@ -133,6 +133,7 @@ Explain each design choice and cite its supporting reference
 - I made the graph as small as I could without making the labels indistinguishable. This helps emphasize the data [@Doumont:2009].
 - Another reason I went with the Facet was to avoid having the audience memorize a legend [@Wainer:2014]
 - I changed the x label from RPM to thousand RPM so they woulden't write over each other.
+-There are 9 columns in one row to make the slopes closer 45 degrees and make it easier to see trends [@?]
 
 
 
@@ -174,12 +175,12 @@ variable name: Number of deaths per million
 variable name: Country
 
 - type: Categorical, nominal
-- levels (if categorical): 5
+- levels (if categorical): 195
 
 variable name: Pollution type
 
 - type: Categorical, nominal
-- levels (if categorical): 195
+- levels (if categorical): 5
 
 
 State the graph type:  Linegraph

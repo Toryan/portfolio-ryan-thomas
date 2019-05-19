@@ -47,7 +47,10 @@ df9 <- read.table(file = "data-raw/d3/masterairscrew_scimitar_9x6_static_2634rd.
                   stringsAsFactors = FALSE) %>%
   mutate(name = "Master Airscrew Scimitar")
 
+var_width = 10
+
 df10 <- rbind(df1, df2, df3, df4, df5, df6, df7, df8, df9) %>%
+  mutate(name = str_wrap(name, width = var_width)) %>%
   mutate(name = as_factor(name)) %>% 
   mutate(name = fct_reorder(name, CT, .fun = mean, .desc = FALSE)) %>%
   mutate(rpmk = RPM/1000)

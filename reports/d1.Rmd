@@ -7,22 +7,36 @@ link-citations: yes
 csl: "../resources/journal-of-glaciology.csl"
 ---
 
-## Distribution of US trade of goods with foreign countries in 2018 
+## Distribution of US trade of goods with other countries in 2018 
 
-prose
+This display illustrates the distribution of US trade of goods with other countries in 2018, separated by category of good. In the current American political climate trade is one of the most prominent issues. But is what we seem to take for granted about trade true?
 
-data
+### Requirements 
 
-discussion 
+This display meets the data requirements for D1 distributions
 
-graph
+- 5,854 observations 
+- One quantitative variable (balance of trade) 
+- Two categorical variables: country (234 levels) and type of good (29 levels)  
 
-```{r, echo=FALSE}
+This display also meets the following document requirement 
+
+- Compelling Story
+
+```{r, echo=FALSE, message=F, warning=F}
 library("knitr")
 include_graphics("../figures/d1-tradebalance.png")
 ```
+The display above is a series box and whisker plots, where some of the outliers in various categories of goods have been labelled (trading partners that have a trade balance of 13 billion with the US in a certain category, positive or negative). The vast majority of countries have a trade balance of much less than the outliers, collapsing the box and whiskers into what looks like a single vertical line.
 
-critique 
+Several insights about US trade are immediately apparent from this display. First, The overall US trade balance (a deficit currently) is driven by trade with a handful of countries. Second, China is the biggest factor in that deficit; we are buying a lot of Chinese goods, computers and electronics in particular. Third, the only countries with a significant trade surplus in any categories are part of NAFTA: Canada and Mexico. A couple other points of interest are our high level of Irish chemical imports, and that we rely on Canada for oil and gas far more than Saudi Arabia (or any other Arab nation).
+
+A series of box and whisker plots fit this data because there is only one quantitative variable and a number of categorical (it is univariate). There are far too many observations to be distinguishable in a dot plot, so a box plot is better. My goal is to compare several distributions with large data sets, and several box plots on the same graph work well for this purpose [@Doumont:2009]
+
+I made several design choices based on the dual goals of having a readable and information dense display. 
+I considered having the commodities on the x-axis, which would give more room for the labels, but rotated text is difficult to read, so I put the commodities on the y-axis [@Doumont:2009]. I jittered the outliers and made them translucent so that they can all be seen [@Robbins:2013a]. I ordered the data by the outliers on the deficit side, going from lowest to highest. This makes it easier to pick out discrepancies between the categories [@Knaflic:2013-09]. I made the graph very large so it could accommodate the labeling I wanted, smaller is usually better but in this case the labels brought more value [@Doumont:2009]. Still, I only labeled the key outliers because labeling too many of them would cause the data to become unreadable. [@Robbins:2013a]
+
 
 references
+<div id="refs"></div>
 
