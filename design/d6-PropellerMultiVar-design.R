@@ -4,7 +4,12 @@ library("graphclassmate")
 library("GGally")
 library("scagnostics")
 
-df9 <- readRDS("data/d6-PropellerMultiVar-data.rds")
+df9 <- readRDS("data/d6-PropellerMultiVar-data.rds") %>%
+  mutate(name = stringr::str_replace(name, "MA Scimitar", "MAScimitar")) %>%
+  mutate(name = stringr::str_replace(name, "APC Slow Flyer", "APCSlowFlyer")) %>%
+  mutate(testype = factor(testype)) %>%
+  mutate(name = factor(name))
+
 
 dfstatic <- filter(df9, testype == "static")
 dfdynamic <- filter(df9, testype == "dynamic") %>%
@@ -28,12 +33,22 @@ ggsave(filename = "d6-PropellerMultiVar-1.png",
        units   = "in",
        dpi     = 400)
 
+library("rJava")
+library("scagnostics")
+scagnostics(dfdynamic)
+
+
+
+
+
+
+
 
 ggparcoord(data = dfdynamic, columns = c(1,2,3,6), groupColumn  = "name",
            scale        = "std",
            title        = "Dynamic tests, 9 inch diameter, 6 degree pitch",
            missing      = "exclude",
-           order        = "Sparse",
+           order        = "Skewed",
            mapping      = NULL)+
   labs(x = NULL, y = NULL) +
   theme_graphclass()
@@ -45,5 +60,8 @@ ggsave(filename = "d6-PropellerMultiVar-2.png",
        units   = "in",
        dpi     = 400)
 
-View(dfdynamic)
+glimpse(dfdynamic)
 
+?scagnostics()
+
+scagnostics(dfdynamic)

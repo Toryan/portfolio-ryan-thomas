@@ -1,6 +1,39 @@
 
 ## correspondence
 
+### 2019-05-17
+
+**RL** D7 presentation notes.
+
+When not working in ggplot2, to create small multiples you can create an
+individual PNG for each country or region. Once they are created, you
+can assemble them in rows using magick then assmble those in a stack
+using magick.
+
+### 2019-05-10
+
+**RL** D6 presentation notes.
+
+Parallel coordinate.
+
+Use of same propeller data set is OK
+
+good use of parallel coordintae graph
+
+Replace axis abbreviations with words, possibly swap the axes so the
+terms can be read (or angle the words)
+
+On the dense lines graph, reduce the alpha of the lines
+
+Try eta in the second position
+
+Possibly compare the propellers pair-wise
+
+Change “eta” to the greek symbol, or replace it with the terf
+“efficiency”
+
+Highlight the color of the best of the two
+
 ### 2019-05-03
 
 **RL** D5 presentation notes.
