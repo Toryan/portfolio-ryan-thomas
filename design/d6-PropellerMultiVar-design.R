@@ -25,7 +25,7 @@ ggparcoord(data = dfstatic, columns = 1:3, groupColumn  = "name",
            mapping      = NULL)+
   labs(x = NULL, y = NULL) +
   theme_graphclass() +
-  scale_color_manual(values = c(rcb("dark_BG"), rcb("dark_Br")))
+  scale_color_manual(values = c(rcb("dark_Br"), rcb("light_BG")))
 
 ggsave(filename = "d6-PropellerMultiVar-1.png",
        path    = "figures",
@@ -44,7 +44,7 @@ ggparcoord(data = dfdynamic, columns = c(1,2,3,8,6), groupColumn  = "name",
            mapping      = NULL)+
   labs(x = NULL, y = NULL) +
   theme_graphclass() +
-  scale_color_manual(values = c(rcb("dark_BG"), rcb("dark_Br")))
+  scale_color_manual(values = c(rcb("dark_Br"), rcb("light_BG")))
 
 ggsave(filename = "d6-PropellerMultiVar-2.png",
        path    = "figures",

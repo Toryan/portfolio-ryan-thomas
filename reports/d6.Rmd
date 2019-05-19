@@ -39,7 +39,7 @@ The main takeaway from the display is that there is a difference between these p
 
 A parellel coordinate plot is suited for this data because I have many quantitative variables, with a couple categorical. The pwrallel coordinate plot is one of the few that can accomidate this many quantitative variables. In addition the comparison is more important than the correlation between the variables for me, so the loss of fidelity on the correlations is not a big problem.
 
-To make this display information dense, readible, and accesible I made several design choices. The color pallete was choosen to be high contrast and colorblind freindly. The aspect ratio was choosen to make the slopes closer 45 degrees and make it easier to see trends. I made the graph as small as I could without making the labels indistinguishable. This helps emphasize the data [@Doumont:2009].
+To make this display information dense, readible, and accesible I made several design choices. The color pallete was choosen to be high contrast, and print and colorblind freindly. The aspect ratio was choosen to make the slopes closer 45 degrees (on average) and make it easier to see trends. I made the graph as small as I could without making the labels indistinguishable. This helps emphasize the data [@Doumont:2009].
 
 
 
