@@ -212,12 +212,6 @@ Explain the visual-rhetoric features of the graph that make it deceptive:
 -   It suggestions a correlation (between money donated and voting yes) where there is none.
 -   There is no comparison, just raw numbers and an ideological implication.
 
-Comments from peers
-
--   Are there additional deceptive practices that have not been mentioned?
--   Other comments
--   etc
-
 **The redesigned graph**
 
 State the number of observations: 100
@@ -252,7 +246,7 @@ Explain each design choice and cite its supporting reference
 
 Comments from peers
 
--   get more votes to compare withe -look at hyperpartizanship
+-get more votes to compare with -look at hyperpartizanship
 
 D6 multivariate
 ---------------
